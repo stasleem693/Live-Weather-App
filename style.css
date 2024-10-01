@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: background 0.5s;
+    overflow: hidden; /* Prevents overflow of content */
+}
+
+.container {
+    text-align: center;
+    z-index: 2;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.spinner {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Background for different weather conditions */
+.clear {
+    background-image: url('clear.jpg'); /* Clear sky */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(135, 206, 235, 0.8); /* Fallback color for clear skies */
+}
+
+.few-clouds {
+    background-image: url('few\ clouds.jpg'); /* Few clouds */
+    background-size: cover;
+    background-position: center;
+}
+
+.scattered-clouds {
+    background-image: url('scattered\ clouds.jpg'); /* Scattered clouds */
+    background-size: cover;
+    background-position: center;
+}
+
+.broken-clouds {
+    background-image: url('broken.jpg'); /* Broken clouds */
+    background-size: cover;
+    background-position: center;
+}
+
+.shower-rain {
+    background-image: url('shower\ rain.jpg'); /* Shower rain */
+    background-size: cover;
+    background-position: center;
+}
+
+.rain {
+    background-image: url('rainy.jpg'); /* Rain */
+    background-size: cover;
+    background-position: center;
+}
+
+.thunderstorm {
+    background-image: url('thunder.jpg'); /* Thunderstorm */
+    background-size: cover;
+    background-position: center;
+}
+
+.snow {
+    background-image: url('snow.jpg'); /* Snow */
+    background-size: cover;
+    background-position: center;
+}
+
+.mist {
+    background-image: url('mist.jpg'); /* Mist */
+    background-size: cover;
+    background-position: center;
+}
+
+.fog {
+    background-image: url('fog.jpg'); /* Fog */
+    background-size: cover;
+    background-position: center;
+}
