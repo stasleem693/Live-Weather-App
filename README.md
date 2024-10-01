@@ -1,6 +1,6 @@
 # Live Weather App
 
-![Weather App](https://your-image-url.com/screenshot.png) <!-- Replace with your app screenshot -->
+![Weather App](https://github.com/stasleem693/Live-Weather-App/blob/main/Screenshot%20(144).png)<!-- Replace with your app screenshot -->
 
 ## Description
 Get real-time weather updates for any city around the world! Simply enter a city name to check the temperature, humidity, wind speed, and weather conditions. Enjoy beautiful background images that change based on the current weather. The app also includes a loading spinner and can automatically detect your location for convenience.
